@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Genie Todo</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Genie Todo</h1>
+    
+            <button class="header__btn" id="toggle-modal"><i class="fa-solid fa-plus"></i></button>
+        </header>
+    
+        <div class="modal-add-task">
+            <form action="#" id="form-add-task">
+                <input type="text" id="task-input" required placeholder="Digite a tarefa">
+
+                <div class="container-buttons">
+                    <button type="reset">Cancelar</button>
+                    <button type="submit">Adicionar</button>
+                </div>
+            </form>
+        </div>
+    
+        <main class="main">
+            <div class="progress-bar__container">
+                <div class="progress-bar">
+
+                </div>
+                <p class="progress-bar__percentage">0%</p>
+            </div>
+            <div class="container-task-list">
+                <ul class="task-list" id="task-list">
+                    <li class="task-list__item">
+                        <div>
+                            <button class="task-list__item-check"><i class="fa-regular fa-circle"></i></button>
+                            <label for="task-1">Exemplo</label>
+                        </div>
+                        <div>
+                            <button class="task-list__delete-btn" title="Excluir tarefa"><i class="fa-solid fa-minus"></i></button>
+                            <button class="task-list__edit-btn" title="Editar tarefa"><i class="fa-solid fa-pen"></i></button>
+        
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__copyright">
+              &copy; 2024 Genie todo. Todos os direitos reservados.
+            </p>
+            <p class="footer__link">
+              Desenvolvido por
+              <a
+                href="https://github.com/tauanecustodio"
+                target="_blank"
+                title="Ir para o perfil do Github Tauane Custódio"
+                >Tauane Custódio
+              </a>
+            </p>
+          </footer>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>

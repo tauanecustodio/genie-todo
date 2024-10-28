@@ -109,6 +109,9 @@ $formAddTask.on('submit', (e) => {
     if (!newTaskTitle) {
         $messageErro.text('Por favor, insira um título para a tarefa.');
         return;
+    } else if(tasks.some(task => task.title === newTaskTitle)) {
+        $messageErro.text('Essa tarefa já foi adicionada.');
+        return;
     }
 
     idCounter++;

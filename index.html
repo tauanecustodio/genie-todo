@@ -14,40 +14,32 @@
         <header class="header">
             <h1 class="header__title">Genie Todo</h1>
     
-            <button class="header__btn" id="toggle-modal"><i class="fa-solid fa-plus"></i></button>
+            <button class="header__btn open-modal"><i class="fa-solid fa-plus"></i></button>
         </header>
     
         <div class="modal-add-task">
-            <form action="#" id="form-add-task">
-                <input type="text" id="task-input" required placeholder="Digite a tarefa">
+            <form action="#" class="form-add-task">
+                <input type="text" class="task-input" placeholder="Digite a tarefa">
 
                 <div class="container-buttons">
-                    <button type="reset">Cancelar</button>
+                    <button type="reset" class="close-modal">Cancelar</button>
                     <button type="submit">Adicionar</button>
                 </div>
             </form>
+
+            <p class="erro message-erro"></p>
         </div>
     
         <main class="main">
             <div class="progress-bar__container">
                 <div class="progress-bar">
-
                 </div>
+
                 <p class="progress-bar__percentage">0%</p>
             </div>
             <div class="container-task-list">
                 <ul class="task-list" id="task-list">
-                    <li class="task-list__item">
-                        <div>
-                            <button class="task-list__item-check"><i class="fa-regular fa-circle"></i></button>
-                            <label for="task-1">Exemplo</label>
-                        </div>
-                        <div>
-                            <button class="task-list__delete-btn" title="Excluir tarefa"><i class="fa-solid fa-minus"></i></button>
-                            <button class="task-list__edit-btn" title="Editar tarefa"><i class="fa-solid fa-pen"></i></button>
         
-                        </div>
-                    </li>
                 </ul>
             </div>
         </main>
@@ -68,6 +60,7 @@
           </footer>
     </div>
     
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>

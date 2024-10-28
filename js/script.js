@@ -1,4 +1,4 @@
-let idCounter = 0;
+let idCounter = 1;
 
 const $tasksList = $('#task-list');
 const $progressBar = $('.progress-bar');
@@ -10,7 +10,11 @@ const $messageErro = $('.message-erro');
 const $openModalAddTask = $('.open-modal');
 const $closeModalAddTask = $('.close-modal');
 
-let tasks = [];
+let tasks = [{
+    id: 0,
+    title: 'exemplo',
+    check: false
+}];
 
 // ---------------functions---------------
 

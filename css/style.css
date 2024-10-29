@@ -173,6 +173,10 @@ body {
     border: none;
 }
 
+.line-through {
+    text-decoration: line-through;
+}
+
 .task-list__item div {
     display: flex;
     gap: 1rem;

@@ -1,9 +1,11 @@
 # Genie Todo
-Genie Todo, é um site de gerenciamento de tarefas que permite aos usuários adicionar, visualizar e excluir suas tarefas.
 
-Esse projeto faz parte dos projetos construídos no curso "Desenvolvedor FullStack Python"
+Genie Todo é um site de gerenciamento de tarefas que permite aos usuários adicionar, visualizar e excluir suas tarefas.
+
+Este projeto faz parte dos projetos construídos no curso "Desenvolvedor FullStack Python"
 
 ## Índice
+
 - [Genie Todo](#genie-todo)
   - [Índice](#índice)
   - [Screenshot e deploy](#screenshot-e-deploy)
@@ -22,15 +24,17 @@ Esse projeto faz parte dos projetos construídos no curso "Desenvolvedor FullSta
 <img src="./screenshot/image-notebook.png" alt="screenshot do projeto em um notebook" width="370" />
 
 ## Tecnologias utilizadas
+
 - HTML
 - CSS
 - JavaScript
 - jQuery
 
 ## Funcionalidades
-- Adiconar, visualizar e excluir tarefas
-  - as tarefas são salvas no Local Storage, isso permite que as informações permaceçam disponíveis entre as sessões
-- Marcar como concluida e ver barra de progresso
+
+- Adicionar, visualizar e excluir tarefas
+  - as tarefas são salvas no Local Storage, isso permite que as informações permaneçam disponíveis entre as sessões
+- Marcar como concluída e ver barra de progresso
 - Validação de tarefas já adicionadas não permitindo que se repita
 
 ## Instalação
@@ -54,4 +58,4 @@ Sinta-se à vontade para contribuir com melhorias ou sugestões. Crie uma issue 
 
 ## Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tauanecustodio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tauanecustodio/).
